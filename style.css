@@ -1,0 +1,125 @@
+/* ----------------------------------------
+-------------------- items -------------
+
+color : #FF008E
+        #FF008E
+        #000
+        #fff
+        #ececec
+        
+font-family: 'Cinzel Decorative',
+cursive;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Slabo 27px',
+serif;
+
+
+---------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Poppins:wght@200;300;400;500;700&family=Slabo+27px&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Slabo 27px',serif;
+    color: #ececec;
+}
+
+.container{
+    width: 1300px;
+    padding: 15px;
+}
+
+.section-box{
+    padding-top: 90px;
+}
+
+
+/* -------------------------header----------------------
+----------------------------------------------------- */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    padding-top: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu-items ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu-items a{
+    color: #ececec;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px 5px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    transition:0.4s;
+}
+
+.menu-items a:hover{
+    color: #FF008E;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.banner-info .banner-heading{
+    font-size: 41px;
+    margin-bottom: 15px;
+    font-family: 'Cinzel Decorative',cursive;
+}
+
+.banner-heading span{
+    color: #FF008E;
+}
+
+.banner-info p{
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.banner-info .btn a{
+    display: inline-block;
+    color: #FF008E;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    border: 1px solid #FF008E;
+    transition: 0.4s;
+}
+
+.btn a:hover{
+    color: #ececec;
+    background-color: #740140;
+    border: 1px solid #740140;
+}
+
+.banner .banner-image img{
+    height: 100%;
+    width: 100%;
+}
+
